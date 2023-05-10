@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WatchAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/play-regular-24.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">Watch<span>AN</span></a>
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search movie">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="index.html" class="user">
+                <img src="img/sharabil.jpg" alt="" class="user-img">
+            </a>
+            <div class="navbar">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class='bx bx-home' ></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-tv' ></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                
+            </div>
+        </div>
+    </header>
+    <!--Play Movie Container-->
+    <div class="play-container container">
+        <!--Play Image-->
+        <img src="img/osman.jpg" alt="" class="play-img">
+        <!--Play Text-->
+        <div class="play-text">
+            <h2>عثمان</h2>
+            <!--Ratings-->
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+            </div>
+            <!--Tags-->
+            <div class="tags">
+                <span>Action</span>
+                <span>Adventur</span>
+                <span>4K</span>
+            </div>
+            <!--Trailer Button-->
+            <a href="videos/osman1.mp4" class="watch-btn">
+                <i class='bx bx-right-arrow'></i>
+                <span>تشيل الحلقةالأخير</span>
+            </a>
+        </div>
+        <!--Play Btn-->
+        <i class='bx bx-right-arrow play-movie'></i>
+        <!--Video Container-->
+        <div class="video-container">
+            <!--Video-Box-->
+            <div class="video-box">
+                <video id="myvideo" src="videos/osman1.mp4" controls></video>
+                <!--Colse Video Icon-->
+                <i class='bx bx-x close-video'></i>
+            </div>
+        </div>
+    </div>
+    <div class="download">
+        <h1 class="download-title">الحلقات</h1>
+        <div class="download-links">
+           <a href="#">الحلقة الاول</a>
+           <a href="#">125</a>
+           <a href="#">3</a>
+           <a href="#">4</a>
+           <a href="#">5</a>
+           <a href="#">6</a>
+           <a href="#">7</a>
+           <a href="#">8</a>
+           <a href="#">9</a>         
+        </div>
+       </div>
+    
+    <!--Copyright-->
+    <div class="copuright">
+        <p>&#169; Ahmed naji <span>Al-Ghanmi</span></p>
+        <div class="has">
+            <a  href="mailto:ahmedalghanmi0@gmail.com"><i class='bx bxl-gmail' ></i></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100079937750350"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/ahmedalghanmi0/"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-discord-alt'></i></a>
+        </div>
+    </div>
+
+
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
